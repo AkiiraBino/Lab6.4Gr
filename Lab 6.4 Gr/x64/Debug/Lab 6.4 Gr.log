@@ -1,0 +1,4 @@
+﻿  Conteiner.cpp
+C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\Conteiner.cpp(28,6): warning C4101: i: неиспользованная локальная переменная
+C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\Conteiner.cpp(112,6): warning C4101: i: неиспользованная локальная переменная
+  Lab 6.4 Gr.vcxproj -> C:\Users\minio\source\repos\Lab 6.4 Gr\x64\Debug\Lab 6.4 Gr.exe
