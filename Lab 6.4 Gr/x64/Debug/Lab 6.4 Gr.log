@@ -1,4 +1,37 @@
-﻿  Conteiner.cpp
-C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\Conteiner.cpp(28,6): warning C4101: i: неиспользованная локальная переменная
-C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\Conteiner.cpp(112,6): warning C4101: i: неиспользованная локальная переменная
+﻿  MyClass.cpp
+  main.cpp
+C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\main.cpp(102,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\Conteiner.h(169,8): warning C4101: i: неиспользованная локальная переменная
+C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\Conteiner.h(168): message : во время компиляции функции-члена класс шаблон "T &Conteiner<T>::iterator::operator *(void)"
+          with
+          [
+              T=MyClass
+          ]
+C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\main.cpp(87): message : выполняется компиляция ссылки на экземпляр шаблон функции "T &Conteiner<T>::iterator::operator *(void)"
+          with
+          [
+              T=MyClass
+          ]
+C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\main.cpp(77): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Conteiner<MyClass>::iterator"
+C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\Conteiner.h(28,18): warning C4244: =: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\Conteiner.h(23): message : во время компиляции функции-члена класс шаблон "void Conteiner<float>::add(int,Conteiner<float>)"
+C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\main.cpp(28): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Conteiner<float>::add(int,Conteiner<float>)"
+C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\main.cpp(23): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Conteiner<float>"
+C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\Conteiner.h(67,20): warning C4244: =: преобразование "T" в "int", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\Conteiner.h(59): message : во время компиляции функции-члена класс шаблон "void Conteiner<float>::sort_data(void)"
+C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\Conteiner.h(172): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Conteiner<float>::sort_data(void)"
+C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\Conteiner.h(69,16): warning C4244: =: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+  Создание кода...
   Lab 6.4 Gr.vcxproj -> C:\Users\minio\source\repos\Lab 6.4 Gr\x64\Debug\Lab 6.4 Gr.exe
