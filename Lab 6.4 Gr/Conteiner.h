@@ -21,6 +21,7 @@ public:
 	}
 	void add(int value, Conteiner<T> conteiner)
 	{
+		conteiner.sort_data();
 		if (size < MAX)
 		{
 			if (size != -1)
@@ -57,7 +58,8 @@ public:
 	}
 	void sort_data()
 	{
-		int i, j, value;
+		int i, j;
+		T value;
 		for (i = 0; i < size; i++)
 		{
 			for (j = size; j != i; j--)

@@ -9,12 +9,12 @@ protected:
 	int area;
 
 public:
-	MyClass(int h, int w);
 	MyClass();
 	void info();
 	MyClass changeElement(int h, int w);
 	int areaComp();
 	friend bool operator <(MyClass value, MyClass value2);
+	friend bool operator >(MyClass value, MyClass value2);
 	friend bool operator ==(MyClass value, MyClass value2);
 	friend std::ostream& operator << (std::ostream& out, MyClass value);
 	MyClass operator =(int value)

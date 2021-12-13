@@ -3,6 +3,7 @@
 
 using std::cout;
 
+int i = 0;
 
 void MyClass::info()
 {
@@ -20,6 +21,7 @@ MyClass MyClass::changeElement(int h, int w)
 	height = h;
 	width = w + 5;
 	area = areaComp();
+	i++;
 	return *this;
 }
 
@@ -32,12 +34,22 @@ MyClass::MyClass()
 
 bool operator <(MyClass value, MyClass value2)
 {
-	if (value.area < value2.area)
+	if (value2.area < value.area)
 	{
 		return true;
 	}
 	else return false;
 }
+
+bool operator >(MyClass value, MyClass value2)
+{
+	if (value.area > value2.area)
+	{
+		return true;
+	}
+	else return false;
+}
+
 
 bool operator ==(MyClass value, MyClass value2)
 {

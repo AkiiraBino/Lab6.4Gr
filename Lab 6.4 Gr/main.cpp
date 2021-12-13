@@ -10,8 +10,7 @@ int MAXIMUM = 10;
 int funcRand()
 {
 	int value;
-	value = rand() % 10;
-	cout << value << "|||";
+	value = rand() % 5;
 	return value;
 }
 
@@ -78,7 +77,7 @@ void useMyClass()
 	int i;
 	for (i = 0; i < MAXIMUM; i++)
 	{
-		conteiner.add(i, conteiner);
+		conteiner.add(funcRand(), conteiner);
 	}
 	conteiner.info();
 
@@ -87,21 +86,19 @@ void useMyClass()
 		*it = funcRand();
 	}
 
-	conteiner.info();
-
-	/*for (it = conteiner.begin(); it < MAXIMUM; it++)
+	for (it = conteiner.begin(); it < MAXIMUM; it++)
 	{
 		cout << *it << "\n";
 	}
-	*/
+	
 }
 
 int main()
 {
 	setlocale(LC_ALL, "RUS");
 	srand(time(NULL));
-	//usefloat();
-	//useint();
+	usefloat();
+	useint();
 	useMyClass();
 	return 0;
 }
