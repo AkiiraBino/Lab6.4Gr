@@ -9,7 +9,7 @@ protected:
 	int area;
 
 public:
-	MyClass();
+	MyClass();	
 	void info();
 	MyClass changeElement(int h, int w);
 	int areaComp();

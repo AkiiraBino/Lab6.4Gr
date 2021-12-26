@@ -1,6 +1,5 @@
-﻿  MyClass.cpp
-  main.cpp
-C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\main.cpp(99,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+﻿  main.cpp
+C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\main.cpp(98,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
 C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\Conteiner.h(171,8): warning C4101: i: неиспользованная локальная переменная
 C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\Conteiner.h(170): message : во время компиляции функции-члена класс шаблон "T &Conteiner<T>::iterator::operator *(void)"
           with
@@ -21,5 +20,4 @@ C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\Conteiner.h(29,18): warning C4
 C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\Conteiner.h(23): message : во время компиляции функции-члена класс шаблон "void Conteiner<float>::add(int,Conteiner<float>)"
 C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\main.cpp(27): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Conteiner<float>::add(int,Conteiner<float>)"
 C:\Users\minio\source\repos\Lab 6.4 Gr\Lab 6.4 Gr\main.cpp(22): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Conteiner<float>"
-  Создание кода...
   Lab 6.4 Gr.vcxproj -> C:\Users\minio\source\repos\Lab 6.4 Gr\x64\Debug\Lab 6.4 Gr.exe

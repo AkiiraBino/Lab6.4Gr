@@ -125,9 +125,9 @@ public:
 		iterator operator--()
 		{
 			index--;
-			if (index > pdata->size)
+			if (index < 0)
 			{
-				index = 0;
+				index = size;
 			}
 			if (index - 1 != -1)
 			{
@@ -141,9 +141,9 @@ public:
 		iterator operator --(int value)
 		{
 			index--;
-			if (index > pdata->size)
+			if (index < 0)
 			{
-				index = 0;
+				index = size;
 			}
 			if (index - 1 != -1)
 			{

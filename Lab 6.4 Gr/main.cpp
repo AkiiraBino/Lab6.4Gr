@@ -56,7 +56,7 @@ void useint()
 
 	for (it = conteiner.begin(); it != conteiner.end(); it++)
 	{
-		*it = rand() % 10;
+		*it = funcRand();
 	}
 
 	conteiner.info();
@@ -90,7 +90,6 @@ void useMyClass()
 	{
 		cout << *it << "\n";
 	}
-	
 }
 
 int main()

@@ -3,8 +3,6 @@
 
 using std::cout;
 
-int i = 0;
-
 void MyClass::info()
 {
 	cout << "Высота: " << height << " Ширина: " << width << " Площадь: " << area << "\n";
@@ -21,7 +19,6 @@ MyClass MyClass::changeElement(int h, int w)
 	height = h;
 	width = w + 5;
 	area = areaComp();
-	i++;
 	return *this;
 }
 
